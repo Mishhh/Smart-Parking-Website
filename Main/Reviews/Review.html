@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale= 1.0">
+        <link rel="stylesheet" href="Review.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <title>Public Reviews Form</title>	
+
+</head>
+
+<body>
+
+<!--Banner  starts-->
+  <img id="logo" src="../Resources/1.png", alt="Logo of the Website" height="100px" width="240px">
+
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href = "../IndexPage/Main.html" onclick="closeNav()">Home</a>
+          <a href = "#footer" onclick="closeNav()">Contact Us</a>
+   
+   
+        </div>
+    </div>
+      
+      <span id="span" style="font-size:40px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+         function openNav() {
+           document.getElementById("myNav").style.width = "20%";
+        }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+    <br><br> <br><br> <br><br> 
+
+    <!--Banner Ends-->
+
+<!--Registartion Form Starts-->
+
+    <h3 class="section-title">Registration Form </h3>
+
+      <div class="container1">
+
+        <br>
+
+        <label for="Parking Name" size="100">Parking Name:</label>
+          <select id="Names" name="Parking">
+            <option value="ABC">ABC</option>
+            <option value="DEF">DEF</option>
+            <option value="GHI">GHI</option>
+            <option value="JKL">JKL</option>
+          </select>
+
+          <br><br>
+
+          <label id="Slot1" for="Area">Parking Area:</label>
+          <select id="States" name="Cities">
+            <option value="ABC">Hadapsar</option>
+            <option value="DEF">Mumbai</option>
+            <option value="GHI">Pune</option>
+            <option value="JKL">Chennai</option>
+          </select>
+
+          <br><br>
+
+        <label>
+          <p>Valid Parking or Not</p>
+          <input type="radio" name="Valid" id="myradio" value="YES" />YES
+          &nbsp;
+          <input type="radio" name="Valid" id="myradio" value="NO" />NO
+          &nbsp;
+
+
+        <label>
+          <p>Please Select your City</p>
+          <input type="radio" name="City" id="myradio" value="Mumbai" />Mumbai
+          &nbsp;
+          <input type="radio" name="City" id="myradio" value="Pune" />Pune
+          &nbsp;
+          <input type="radio" name="City" id="myradio" value="Satara" />Satara
+          &nbsp;
+          <input type="radio" name="City" id="myradio" value="Satara" />Nagpur
+          &nbsp;
+        </label>
+
+        <p>Review</p>
+        <input type="text" required />
+
+        <p>Year</p>
+        <input type="date" required />
+
+
+      <br>
+      <br>
+
+        <label>
+        <input type="checkbox" id="mycheckbox" value="Agree" />I agree to the terms and conditons</label><br>
+
+        <label>All Fields are required *</label> 
+        <input   id="Last" type="Submit" required />
+
+    </div>
+
+    <!--Registration Form Ends-->
+
+    <!--Footer Section Starts-->
+
+      <section id=footer>
+        <div class="title_text">
+          <p>CONTACT US</p>
+          <h3> Visit Our Website Today</h3>
+        </div>
+      
+      <div class="footer_row">
+      <div class="footer_left">
+        <h1>Working Hours</h1>
+        <p><i class="fas fa-clock"></i>Monday to Friday- 7:00 am to 5:00 pm</p>
+        <p> <i class="fas fa-clock"></i>Saturday and Sunday - 7:00 am to 12:00 pm</p>
+      
+      </div>
+      
+      <div class="footer_right">
+        <h1> Get In Touch</h1>
+        <p>example@gmail.com<i class="fas fa-paper-plane"></i></p>
+        <p>Pune Mahrashtra<i class="fas fa-map-marker-alt"></i></p>
+        <p>020-2345678<i class="fas fa-phone"></i></p>
+      </div>
+      </div>
+      
+      <div class="Social_links">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+      
+      </div>
+      
+      </section>
+
+      <!--Footer Section Ends-->
+
+    
+        
+      
+    </body>
+</html>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
